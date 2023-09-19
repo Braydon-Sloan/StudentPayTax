@@ -1,10 +1,12 @@
 # StudentPayTax
 C++ program taking hours a student worked at $7.50 an hour and calculating taxes and pay
 
-#include <iostream>
-using namespace std;
 
-int main(){
+
+    #include <iostream>
+    using namespace std;
+
+    int main(){
     const float TAXWITHHOLD = 0.15;
     const float PAY = 7.50;
     float hoursWorked;
@@ -39,6 +41,9 @@ int main(){
     cout << "your gross pay was = " << grossPay << endl;
     cout << "your withheld tax = " << taxWitheld << endl;
     cout << "your net pay = " <<  netPay << endl;
+
+    
+
 
 
     return 0;
